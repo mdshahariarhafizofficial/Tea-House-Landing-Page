@@ -5,11 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/cup.png" type="image/x-icon">
     <title>Tea House Landing Page</title>
+    <!-- Google Font Cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind Css Cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              fontFamily:{
+                'manrope': ["Manrope", "serif"]
+              }
+            }
+          }
+        }
+      </script>
+
 </head>
-<body>
+<body class="font-manrope">
     <!-- Header Section Start -->
      <header>
-
+        
      </header>
     <!-- Main Section Start -->
      <main>
@@ -39,7 +62,7 @@
           <section class="news-section">
 
           </section>
-          
+
         </div>
      </main>
 
